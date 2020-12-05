@@ -9,10 +9,12 @@
 #include <array>
 #include <numeric>
 #include <sstream>
+#include <utility>
 
 void day1(std::istream& in, int part);
 void day2(std::istream& in, int part);
 void day3(std::istream& in, int part);
 void day4(std::istream& in, int part);
+void day5(std::istream& in, int part);
 
 #endif // DAYS_HPP_INCLUDED

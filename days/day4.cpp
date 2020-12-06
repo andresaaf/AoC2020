@@ -95,7 +95,6 @@ void day4(istream& in, int part)
     const bool validate = (part == 2);
     int valid = 0;
     string line;
-    ostringstream ss;
     while (getline(in, line))
     {
         // New entry

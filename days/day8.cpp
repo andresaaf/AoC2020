@@ -108,9 +108,9 @@ namespace {
 
 void day8(istream& in, int part)
 {
+    GameConsole game;
     string op;
     string arg;
-    GameConsole game;
 
     while (in >> op >> arg)
     {

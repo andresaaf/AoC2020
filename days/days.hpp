@@ -10,9 +10,11 @@
 #include <numeric>
 #include <sstream>
 #include <utility>
+#include <set>
 #include <unordered_set>
 #include <map>
 #include <list>
+#include <tuple>
 
 void day1(std::istream& in, int part);
 void day2(std::istream& in, int part);
@@ -23,5 +25,6 @@ void day6(std::istream& in, int part);
 void day7(std::istream& in, int part);
 void day8(std::istream& in, int part);
 void day9(std::istream& in, int part);
+void day10(std::istream& in, int part);
 
 #endif // DAYS_HPP_INCLUDED

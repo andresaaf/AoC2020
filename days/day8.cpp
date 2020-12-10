@@ -97,7 +97,7 @@ namespace {
 
         uint32_t pc() const { return pc_; }
         uint32_t accumulator() const { return acc_; }
-        uint32_t size() const { return code_.size(); }
+        size_t size() const { return code_.size(); }
 
     private:
         vector<Operation> code_;

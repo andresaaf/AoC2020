@@ -6,7 +6,7 @@ void day6(istream& in, int part)
 {
     if (part == 1)
     {
-        uint32_t total_size = 0;
+        size_t total_size = 0;
         unordered_set<char> uset{};
         string line;
         while (getline(in, line))
@@ -29,7 +29,7 @@ void day6(istream& in, int part)
     }
     else
     {
-        uint32_t total_size = 0;
+        size_t total_size = 0;
         int rows = 0;
         map<char, int> mmap{};
         string line;

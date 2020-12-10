@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="days\day1.cpp" />
+    <ClCompile Include="days\day10.cpp" />
     <ClCompile Include="days\day2.cpp" />
     <ClCompile Include="days\day3.cpp" />
     <ClCompile Include="days\day4.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="days\days.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="input\day10.txt" />
     <Text Include="input\day2.txt" />
     <Text Include="input\day3.txt" />
     <Text Include="input\day4.txt" />

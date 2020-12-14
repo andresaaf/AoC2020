@@ -29,5 +29,6 @@ void day10(std::istream& in, int part);
 void day11(std::istream& in, int part);
 void day12(std::istream& in, int part);
 void day13(std::istream& in, int part);
+void day14(std::istream& in, int part);
 
 #endif // DAYS_HPP_INCLUDED

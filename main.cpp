@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    ifstream file{ "input/day13.txt" };
+    ifstream file{ "input/day14.txt" };
 
     istream& input = file;
     //istream& input = cin;
 
     int part = 2;
 
-    day13(input, part);
+    day14(input, part);
 }

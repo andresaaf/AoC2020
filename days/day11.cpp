@@ -27,10 +27,10 @@ namespace
     {
         int neighbors = 0;
 
-        auto has_left = [row_len](int cell) { return cell % row_len > 0; };
-        auto has_up = [row_len](int cell) { return cell >= row_len; };
-        auto has_right = [row_len](int cell) { return cell % row_len != (row_len - 1); };
-        auto has_down = [row_len, size = grid.size()](int cell) { return cell < (size - row_len); };
+        auto has_left = [row_len](size_t cell) { return cell % row_len > 0; };
+        auto has_up = [row_len](size_t cell) { return cell >= row_len; };
+        auto has_right = [row_len](size_t cell) { return cell % row_len != (row_len - 1); };
+        auto has_down = [row_len, size = grid.size()](size_t cell) { return cell < (size - row_len); };
 
         // Up-left
         if (has_far_neighbor(grid, row_len, cell_index, -1, -1, has_up, has_left))
